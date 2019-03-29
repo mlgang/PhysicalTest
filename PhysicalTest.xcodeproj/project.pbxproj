@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69118202224C65CE0040BEA0 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69118201224C65CE0040BEA0 /* UserModel.m */; };
+		6911D009224D9FE600A8FBD1 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6911D008224D9FE600A8FBD1 /* NotificationController.m */; };
+		6911D00C224DA52500A8FBD1 /* ReTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6911D00B224DA52500A8FBD1 /* ReTestView.m */; };
+		6911D00F224DBFE700A8FBD1 /* RankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6911D00E224DBFE700A8FBD1 /* RankView.m */; };
+		6911D012224DC2F200A8FBD1 /* PersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6911D011224DC2F200A8FBD1 /* PersonView.m */; };
 		6915DBE4224BC0C600FD6738 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6915DBE3224BC0C600FD6738 /* AppDelegate.m */; };
 		6915DBE7224BC0C600FD6738 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6915DBE6224BC0C600FD6738 /* ViewController.m */; };
 		6915DBEA224BC0C600FD6738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6915DBE8224BC0C600FD6738 /* Main.storyboard */; };
@@ -15,6 +20,17 @@
 		6915DBF2224BC0D400FD6738 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6915DBF1224BC0D400FD6738 /* main.m */; };
 		6915DBFC224BC0D400FD6738 /* PhysicalTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6915DBFB224BC0D400FD6738 /* PhysicalTestTests.m */; };
 		6915DC07224BC0D400FD6738 /* PhysicalTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6915DC06224BC0D400FD6738 /* PhysicalTestUITests.m */; };
+		6915DC16224BC14F00FD6738 /* ToolObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 6915DC15224BC14F00FD6738 /* ToolObjc.m */; };
+		6915DC1D224BC3E100FD6738 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6915DC1C224BC3E100FD6738 /* MainViewController.m */; };
+		6915DC20224BC40B00FD6738 /* SubmitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6915DC1F224BC40B00FD6738 /* SubmitView.m */; };
+		6915DC23224BC42000FD6738 /* MeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6915DC22224BC42000FD6738 /* MeView.m */; };
+		69240688224C73B400DC34D4 /* SingleObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 69240687224C73B400DC34D4 /* SingleObj.m */; };
+		6924068B224C7B7600DC34D4 /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6924068A224C7B7600DC34D4 /* DetailView.m */; };
+		69240690224C9CDB00DC34D4 /* SubmitTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6924068F224C9CDB00DC34D4 /* SubmitTableViewCell.m */; };
+		69240695224CAA4D00DC34D4 /* AboutUsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69240694224CAA4D00DC34D4 /* AboutUsView.m */; };
+		69240698224CB7FA00DC34D4 /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 69240697224CB7FA00DC34D4 /* NetworkTool.m */; };
+		6924069B224CF94800DC34D4 /* ChangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6924069A224CF94800DC34D4 /* ChangeView.m */; };
+		ABC8BF8F121C6BEE6AF55148 /* libPods-PhysicalTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5742181B7888D0C8948F39D6 /* libPods-PhysicalTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B423C479828EE9CCD473388 /* Pods-PhysicalTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhysicalTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhysicalTest/Pods-PhysicalTest.release.xcconfig"; sourceTree = "<group>"; };
+		5742181B7888D0C8948F39D6 /* libPods-PhysicalTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhysicalTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69118200224C65CE0040BEA0 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		69118201224C65CE0040BEA0 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		6911D007224D9FE600A8FBD1 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		6911D008224D9FE600A8FBD1 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		6911D00A224DA52500A8FBD1 /* ReTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReTestView.h; sourceTree = "<group>"; };
+		6911D00B224DA52500A8FBD1 /* ReTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReTestView.m; sourceTree = "<group>"; };
+		6911D00D224DBFE700A8FBD1 /* RankView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RankView.h; sourceTree = "<group>"; };
+		6911D00E224DBFE700A8FBD1 /* RankView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RankView.m; sourceTree = "<group>"; };
+		6911D010224DC2F200A8FBD1 /* PersonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonView.h; sourceTree = "<group>"; };
+		6911D011224DC2F200A8FBD1 /* PersonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonView.m; sourceTree = "<group>"; };
 		6915DBDF224BC0C600FD6738 /* PhysicalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6915DBE2224BC0C600FD6738 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6915DBE3224BC0C600FD6738 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +79,27 @@
 		6915DC02224BC0D400FD6738 /* PhysicalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6915DC06224BC0D400FD6738 /* PhysicalTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhysicalTestUITests.m; sourceTree = "<group>"; };
 		6915DC08224BC0D400FD6738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6915DC14224BC14F00FD6738 /* ToolObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolObjc.h; sourceTree = "<group>"; };
+		6915DC15224BC14F00FD6738 /* ToolObjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolObjc.m; sourceTree = "<group>"; };
+		6915DC1B224BC3E100FD6738 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6915DC1C224BC3E100FD6738 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6915DC1E224BC40B00FD6738 /* SubmitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubmitView.h; sourceTree = "<group>"; };
+		6915DC1F224BC40B00FD6738 /* SubmitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubmitView.m; sourceTree = "<group>"; };
+		6915DC21224BC42000FD6738 /* MeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeView.h; sourceTree = "<group>"; };
+		6915DC22224BC42000FD6738 /* MeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeView.m; sourceTree = "<group>"; };
+		69240686224C73B400DC34D4 /* SingleObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleObj.h; sourceTree = "<group>"; };
+		69240687224C73B400DC34D4 /* SingleObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleObj.m; sourceTree = "<group>"; };
+		69240689224C7B7600DC34D4 /* DetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
+		6924068A224C7B7600DC34D4 /* DetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
+		6924068E224C9CDB00DC34D4 /* SubmitTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubmitTableViewCell.h; sourceTree = "<group>"; };
+		6924068F224C9CDB00DC34D4 /* SubmitTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubmitTableViewCell.m; sourceTree = "<group>"; };
+		69240693224CAA4D00DC34D4 /* AboutUsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutUsView.h; sourceTree = "<group>"; };
+		69240694224CAA4D00DC34D4 /* AboutUsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUsView.m; sourceTree = "<group>"; };
+		69240696224CB7FA00DC34D4 /* NetworkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkTool.h; sourceTree = "<group>"; };
+		69240697224CB7FA00DC34D4 /* NetworkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkTool.m; sourceTree = "<group>"; };
+		69240699224CF94700DC34D4 /* ChangeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeView.h; sourceTree = "<group>"; };
+		6924069A224CF94800DC34D4 /* ChangeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeView.m; sourceTree = "<group>"; };
+		EFC09546955FE5BDCCA73781 /* Pods-PhysicalTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhysicalTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhysicalTest/Pods-PhysicalTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC8BF8F121C6BEE6AF55148 /* libPods-PhysicalTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +128,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		691181FD224C657B0040BEA0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6915DC1B224BC3E100FD6738 /* MainViewController.h */,
+				6915DC1C224BC3E100FD6738 /* MainViewController.m */,
+				6911D00D224DBFE700A8FBD1 /* RankView.h */,
+				6911D00E224DBFE700A8FBD1 /* RankView.m */,
+				6911D010224DC2F200A8FBD1 /* PersonView.h */,
+				6911D011224DC2F200A8FBD1 /* PersonView.m */,
+				6911D007224D9FE600A8FBD1 /* NotificationController.h */,
+				6911D008224D9FE600A8FBD1 /* NotificationController.m */,
+				6911D00A224DA52500A8FBD1 /* ReTestView.h */,
+				6911D00B224DA52500A8FBD1 /* ReTestView.m */,
+				69240689224C7B7600DC34D4 /* DetailView.h */,
+				6924068A224C7B7600DC34D4 /* DetailView.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		691181FE224C65940040BEA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				69118200224C65CE0040BEA0 /* UserModel.h */,
+				69118201224C65CE0040BEA0 /* UserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		6915DBD6224BC0C600FD6738 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +163,8 @@
 				6915DBFA224BC0D400FD6738 /* PhysicalTestTests */,
 				6915DC05224BC0D400FD6738 /* PhysicalTestUITests */,
 				6915DBE0224BC0C600FD6738 /* Products */,
+				F9BF394793479D70130E57BC /* Pods */,
+				93DCD8A8C8CCB88DAAA73469 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +183,12 @@
 			children = (
 				6915DBE2224BC0C600FD6738 /* AppDelegate.h */,
 				6915DBE3224BC0C600FD6738 /* AppDelegate.m */,
+				6915DC17224BC1B100FD6738 /* Common Tool */,
 				6915DBE5224BC0C600FD6738 /* ViewController.h */,
 				6915DBE6224BC0C600FD6738 /* ViewController.m */,
+				6915DC18224BC37100FD6738 /* Main Tab One */,
+				6915DC19224BC38A00FD6738 /* Secone Tab */,
+				6915DC1A224BC3AC00FD6738 /* Me Tab */,
 				6915DBE8224BC0C600FD6738 /* Main.storyboard */,
 				6915DBEB224BC0D400FD6738 /* Assets.xcassets */,
 				6915DBED224BC0D400FD6738 /* LaunchScreen.storyboard */,
@@ -132,6 +216,93 @@
 			path = PhysicalTestUITests;
 			sourceTree = "<group>";
 		};
+		6915DC17224BC1B100FD6738 /* Common Tool */ = {
+			isa = PBXGroup;
+			children = (
+				691181FE224C65940040BEA0 /* Model */,
+				6915DC14224BC14F00FD6738 /* ToolObjc.h */,
+				6915DC15224BC14F00FD6738 /* ToolObjc.m */,
+				69240696224CB7FA00DC34D4 /* NetworkTool.h */,
+				69240697224CB7FA00DC34D4 /* NetworkTool.m */,
+				69240686224C73B400DC34D4 /* SingleObj.h */,
+				69240687224C73B400DC34D4 /* SingleObj.m */,
+			);
+			path = "Common Tool";
+			sourceTree = "<group>";
+		};
+		6915DC18224BC37100FD6738 /* Main Tab One */ = {
+			isa = PBXGroup;
+			children = (
+				691181FD224C657B0040BEA0 /* Controller */,
+			);
+			path = "Main Tab One";
+			sourceTree = "<group>";
+		};
+		6915DC19224BC38A00FD6738 /* Secone Tab */ = {
+			isa = PBXGroup;
+			children = (
+				6924068C224C9C9F00DC34D4 /* Controller */,
+				6924068D224C9CAD00DC34D4 /* View */,
+			);
+			path = "Secone Tab";
+			sourceTree = "<group>";
+		};
+		6915DC1A224BC3AC00FD6738 /* Me Tab */ = {
+			isa = PBXGroup;
+			children = (
+				69240691224CAA1900DC34D4 /* Controller */,
+			);
+			path = "Me Tab";
+			sourceTree = "<group>";
+		};
+		6924068C224C9C9F00DC34D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6915DC1E224BC40B00FD6738 /* SubmitView.h */,
+				6915DC1F224BC40B00FD6738 /* SubmitView.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6924068D224C9CAD00DC34D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6924068E224C9CDB00DC34D4 /* SubmitTableViewCell.h */,
+				6924068F224C9CDB00DC34D4 /* SubmitTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		69240691224CAA1900DC34D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6915DC21224BC42000FD6738 /* MeView.h */,
+				6915DC22224BC42000FD6738 /* MeView.m */,
+				69240693224CAA4D00DC34D4 /* AboutUsView.h */,
+				69240694224CAA4D00DC34D4 /* AboutUsView.m */,
+				69240699224CF94700DC34D4 /* ChangeView.h */,
+				6924069A224CF94800DC34D4 /* ChangeView.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		93DCD8A8C8CCB88DAAA73469 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5742181B7888D0C8948F39D6 /* libPods-PhysicalTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9BF394793479D70130E57BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFC09546955FE5BDCCA73781 /* Pods-PhysicalTest.debug.xcconfig */,
+				2B423C479828EE9CCD473388 /* Pods-PhysicalTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +310,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6915DC0B224BC0D400FD6738 /* Build configuration list for PBXNativeTarget "PhysicalTest" */;
 			buildPhases = (
+				F20CC9BEDF2AA032DA6C529B /* [CP] Check Pods Manifest.lock */,
 				6915DBDB224BC0C600FD6738 /* Sources */,
 				6915DBDC224BC0C600FD6738 /* Frameworks */,
 				6915DBDD224BC0C600FD6738 /* Resources */,
+				895D6A59A0AF569361D54FD9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +430,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		895D6A59A0AF569361D54FD9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PhysicalTest/Pods-PhysicalTest-resources.sh",
+				"${PODS_ROOT}/HMQRCodeScanner/HMQRCodeScanner/QRCode/HMScanner.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HMScanner.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhysicalTest/Pods-PhysicalTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F20CC9BEDF2AA032DA6C529B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhysicalTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6915DBDB224BC0C600FD6738 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69240688224C73B400DC34D4 /* SingleObj.m in Sources */,
+				6915DC20224BC40B00FD6738 /* SubmitView.m in Sources */,
+				6915DC23224BC42000FD6738 /* MeView.m in Sources */,
 				6915DBE7224BC0C600FD6738 /* ViewController.m in Sources */,
+				69240698224CB7FA00DC34D4 /* NetworkTool.m in Sources */,
+				6911D009224D9FE600A8FBD1 /* NotificationController.m in Sources */,
+				6911D00F224DBFE700A8FBD1 /* RankView.m in Sources */,
+				6915DC16224BC14F00FD6738 /* ToolObjc.m in Sources */,
 				6915DBF2224BC0D400FD6738 /* main.m in Sources */,
+				69240695224CAA4D00DC34D4 /* AboutUsView.m in Sources */,
+				6911D00C224DA52500A8FBD1 /* ReTestView.m in Sources */,
+				6915DC1D224BC3E100FD6738 /* MainViewController.m in Sources */,
+				6924068B224C7B7600DC34D4 /* DetailView.m in Sources */,
+				6924069B224CF94800DC34D4 /* ChangeView.m in Sources */,
+				69118202224C65CE0040BEA0 /* UserModel.m in Sources */,
+				6911D012224DC2F200A8FBD1 /* PersonView.m in Sources */,
+				69240690224C9CDB00DC34D4 /* SubmitTableViewCell.m in Sources */,
 				6915DBE4224BC0C600FD6738 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,8 +670,10 @@
 		};
 		6915DC0C224BC0D400FD6738 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC09546955FE5BDCCA73781 /* Pods-PhysicalTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8KCZTK8E38;
 				INFOPLIST_FILE = PhysicalTest/Info.plist;
@@ -442,7 +681,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jay.apple.PhysicalTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.apple.CALayerTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,8 +689,10 @@
 		};
 		6915DC0D224BC0D400FD6738 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B423C479828EE9CCD473388 /* Pods-PhysicalTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8KCZTK8E38;
 				INFOPLIST_FILE = PhysicalTest/Info.plist;
@@ -459,7 +700,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jay.apple.PhysicalTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.apple.CALayerTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

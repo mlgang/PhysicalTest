@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic,strong)UIImageView *bgImageView;
+@property (nonatomic,strong)UIImageView *headImageView;
+@property (nonatomic,strong)UIImageView *pwdImageView;
+@property (nonatomic,strong)UITextField *accountTextField;
+@property (nonatomic,strong)UITextField *pwdTextField;
+
 
 @end
 
